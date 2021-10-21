@@ -1,0 +1,10 @@
+a:hover {
+    color: #23527c!important;
+    text-decoration: underline
+}
+select:focus {
+    border-color: #66afe9!important;
+}
+select::selection {
+    border-color: #66afe9!important;
+}

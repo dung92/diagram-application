@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import mf from "diagram-library";
 import "./App.css";
+import MainContent from "./page/MainContent/MainContent";
 
 function App() {
   useEffect(() => {
@@ -25,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <div id="content" style={{ top: "60px", bottom: "24px" }}>
+      {/* <div id="content" style={{ top: "60px", bottom: "24px" }}>
         <div
           style={{
             position: "absolute",
@@ -79,7 +80,8 @@ function App() {
             This page requires a browser that supports HTML 5 Canvas element.
           </canvas>
         </div>
-      </div>
+      </div> */}
+      <MainContent/>
     </div>
   );
 }
